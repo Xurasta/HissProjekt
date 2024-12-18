@@ -8,7 +8,7 @@ Vi beslöt att jag skulle kolla in lite mer i Unity då jag har använt det för
 
 ## Bakgrund
 Vi började med prototypen som Daniel har på sin dator så jag har inga bra bilder på den men tanken var att med text input och output generera en liten simulator där man väljer att lägga till våningar eller att fara till nästa tillagda våningen. Vi gjorde det genom några simpla loopar och funktioner. Själva Unity 3D-Hissen är lite svårare att göra då man måste referera objekt med varandra för att nå olika typer av data. T.ex, positionen och rotationen för olika objekt. Med hjälp av datan kan man uppdatera den och flytta på objekten. Vi skapade olika värden för alla tre dimensioner i positioner genom olika Vector3 vectorer. Vector3 skapar värden för alla tre dimensionerna (x,y,z) så man kan hålla koll på saker som position och rotation och mer. Vi skapade en Vector3 för varje våning som hissen kan fara mellan då programmet får rätt tangentbords-input.
-![Våningarna](/HISS_BILD.PNG)
+![Våningarna](/images/HISS_BILD.PNG)
 
 Bilden visar 10 olika våningar som är sparade som Vector3 data. Bilden visar också två olika listor som man använder för minnet till kön och en variabel som är hastigheten på hissen.
 
